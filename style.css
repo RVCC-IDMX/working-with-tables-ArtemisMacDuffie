@@ -1,3 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+
 body {
   background-color: aliceblue;
+  text-align: center;
+  background-image: url("sky-photo-by-guillaume-galtier.jpg");
+}
+
+header {
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  width: 12em;
+  border: 2px solid rgba(160,160,160,.5);
+  text-align: center;
+  padding: .35em;
+}
+
+th:nth-child(2), td:nth-child(2), th:nth-child(5), td:nth-child(5) {
+  width: 5em;
+}
+
+th {
+  background-color: rgb(255, 210, 110)
+}
+
+td {
+  background-color: white;
+}
+
+p {
+  padding: .3em;
+  margin: auto;
+  text-align: left;
+  text-shadow: 0 0 20px #fff;
+}
+
+:link {
+  color: rgb(100, 150, 20);
+}
+
+:visited {
+  color: rgb(20, 125, 20);
+}
+
+@media screen and (min-width: 500px) {
+  div {
+    width: 90%;
+  }
+
+  p {
+    padding-left: 3em;
+    width: 90%;
+    max-width: 800px;
+  }
 }
